@@ -2,7 +2,7 @@
 title: "Practical Common Lisp / Clojure: 4"
 date: 2017-06-09
 tags: ["clojure", "lisp", "pcl"]
-draft: true
+draft: false
 ---
 
 In these posts I’m studying the book Practical Common Lisp by Peter Seibel and coding the examples in Clojure. Aim: studying clojure and reading this fantastic book [can be accessed online here](http://www.gigamonkeys.com/book/).

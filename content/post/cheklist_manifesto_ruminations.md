@@ -2,7 +2,7 @@
 title: "Cheklist Manifesto & Thinking Fast and Slow"
 date: 2017-04-11
 tags: ["reading", "books"]
-draft: true
+draft: false
 ---
 
 I read ‘the checklist manifesto’ by Atul Gawande. I am a firm believer in books and advice in general from anyone in practice oriented profession: doctors, investors (not speculators), pilots and so on. The professinals in these fields have generally a large skin in the game (money, reputation, their own life), making their advice worthy as compared to academic advise. The checklist book was then just the right fit for a lazy afternoon reading at once.

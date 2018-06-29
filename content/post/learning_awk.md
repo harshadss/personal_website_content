@@ -2,7 +2,7 @@
 title: "Learning awk is useful!"
 date: 2016-11-30
 tags: ["awk", "unix"]
-draft: true
+draft: false
 ---
 
 I have been working with Unix (Linux to be precise) command line since a long time. But I had always avoided learning about Unix power tools like awk, sed. Quick exploratory analysis of data in a tabular/csv form is daily routine for me. My tool of choice for this work is either R or Python. I used to wonder about the utility of tool like awk. But recently I found myself using awk for some specific use cases. I was pleasantly surprised by productivity boost it can offer and its not so steep learning curve.

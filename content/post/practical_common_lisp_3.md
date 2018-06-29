@@ -2,7 +2,7 @@
 title: "Practical Common Lisp / Clojure: 3"
 date: 2017-06-08
 tags: ["clojure", "lisp", "pcl"]
-draft: true
+draft: false
 ---
 
 <p>In these posts I&rsquo;m studying the book Practical Common Lisp by Peter Siebel and

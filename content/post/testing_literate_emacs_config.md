@@ -2,7 +2,7 @@
 title: "Testing Literate Emacs Config"
 date: 2016-12-12
 tags: ["emacs", "org-mode"]
-draft: true
+draft: false
 ---
 
 Some time back, I wrote my Emacs configuration in an org mode file. The whole setup is documented here. The objective was twofold: one to make it readable to my dumb brain when I open it six months later, second was to make it reproducible on another machine quickly. Say, if something unforseen was to happen to my good ol Dell Vostro machine, what with the configuration safe on Github and all that, I can have my new machine with the Emacs setup very fast and without splitting hair.

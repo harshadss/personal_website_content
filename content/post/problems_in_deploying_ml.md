@@ -2,7 +2,7 @@
 title: "Obstacles in Taking Machine Learning to Production"
 date: 2017-07-25
 tags: ["machine-learning", "data-science", "python"]
-draft: true
+draft: false
 ---
 
 Well the title is intentionally exaggerating. May not the biggest but certainly one of the most important area of friction in taking machine learning to production.

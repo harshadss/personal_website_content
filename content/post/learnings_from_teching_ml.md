@@ -2,7 +2,7 @@
 title: "Learnings from Teaching Machine Learning"
 date: 2017-12-19
 tags: ["machine-learning", "data-science", "python"]
-draft: true
+draft: false
 ---
 
 I have been teaching machine learning to programmers since some time. I started this activity in 2013 and till date I have conducted 10+ hands on workshops.
