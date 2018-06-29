@@ -1,4 +1,4 @@
-baseURL = "http://harshadss.github.io/"
+baseURL = "https://harshadss.github.io/"
 languageCode = "en-us"
 title = "Harshad Saykhedkar"
 theme = "minimal"
