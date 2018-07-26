@@ -1,7 +1,7 @@
 ---
 title: "Mathematical Epiphanies 0: Introduction"
 date: 2018-07-24
-tags: ["maths", "learning", "engineering", "teaching"]
+tags: ["maths", "learning", "engineering", "teaching", "maths-epiphany"]
 draft: false
 ---
 

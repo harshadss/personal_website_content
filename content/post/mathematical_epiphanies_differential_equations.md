@@ -1,7 +1,7 @@
 ---
 title: "Mathematical Epiphanies 2: Differential Equations"
 date: 2018-07-26
-tags: ["maths", "learning", "engineering", "teaching"]
+tags: ["maths", "learning", "engineering", "teaching", "maths-epiphany"]
 draft: false
 ---
 

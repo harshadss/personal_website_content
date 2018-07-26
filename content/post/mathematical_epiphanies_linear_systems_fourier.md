@@ -1,7 +1,7 @@
 ---
 title: "Mathematical Epiphanies 1: Linear Systems & Fourier Transform"
 date: 2018-07-25
-tags: ["maths", "learning", "engineering", "teaching", "fourier transform", "signals and systems"]
+tags: ["maths", "learning", "engineering", "teaching", "fourier transform", "signals and systems", "maths-epiphany"]
 draft: false
 ---
 
@@ -32,29 +32,34 @@ draft: false
      applies a linear map operation to it to transform it into another coordinate system.
   6. If I'm designing/synthesizing or analyzing an LTI system, I would be great for its map to be a diagonal matrix
      since it makes it simple to analyze.
-  8. Another view: if I could do a transformation of my input space (A) to another coordinate space (B) such that operation
+  7. Another view: if I could do a transformation of my input space (A) to another coordinate space (B) such that operation
      of my system is stretching or shrinking of axes of B, it is great. Because then I can predict/quantify the behaviour of my system for any arbitrary input -> I know what happens to axes of space B. So for any arbitrary input signal represented in space B, I know what my system does.
-  9. If only there was such co-ordinate space that exists and I could represent my signals in that space.
-  10. It turns out that for sinusoidal signal inputs, any LTI system will act as a diagonal matrix. (Obscured by
+  8. If only there was such co-ordinate space that exists and I could represent my signals in that space.
+  9. It turns out that for sinusoidal signal inputs, any LTI system will act as a diagonal matrix. (Obscured by
       technical jargon which says sinusoids are eigenvectors for linear maps of LTI systems).
-  11. But I'm not interested in sinusoidal inputs. I'm interested in arbitrary signal inputs like my voice going
+  10. But I'm not interested in sinusoidal inputs. I'm interested in arbitrary signal inputs like my voice going
       into an audio recorder with a background noise of my neighbour's annoying dog barking.
-  12. Can I represent any arbitrary signal in coordinate space represented by sinusoids of different frequencies
+  11. Can I represent any arbitrary signal in coordinate space represented by sinusoids of different frequencies
       as axis? Is that representation accurate?
-  13. The answers for both the above questions is no in theory. But yes in practice.
-  14. If I can assume that all signals of interest to me (potential inputs to my system) follow some conditions,
+  12. The answers for both the above questions is no in general but yes under some practical conditions.
+  13. If I can assume that all signals of interest to me (potential inputs to my system) follow some conditions,
       I can find a way to represent them in space of sinusoidal axis. The representation will be reasonably accurate
       (probably as accurate as you can get in the least square sense, read next section).
-  15. That 'way of representation' mentioned in 14 means I have to find coefficients for each sinusoidal axis.
-      The formula for finding those coefficients is given by Fourier series! Aha! That was long but worth it.
-  16. To repeat the whole point: represent input signals in a coordinate space so that operation of the system
-      on the signal is just stretching and shrinking of the axes.
+  14. That 'way of representation' mentioned in 13 means I have to find coefficients for each sinusoidal axis for
+      a given signal. The formula for finding those coefficients is given by Fourier series! Aha! That was long but worth it.
+  15. To repeat the whole point: represent input signals in a coordinate space so that operation of the system
+      on the axes of space is just stretching and shrinking. Once you know what happens to the vectors representing
+      the axes, you know what happens to every signal in that space.
+  16. Once you do this, designing certain type of systems becomes easy. For example: what parameters can I select
+      for this electronic circuit so that these annoying noise signal that I don't want get de-amplified? You
+      can analyze the circuits behaviour in so-called frequency domain to design filters. You have to tune the
+      parameters such that the axis representing those type of signal (frequencies) get shrunked.
 
 ### Things Still Hazy
 
 I am not sure about the following, but probably that is how things are.
 
-  1. Probably: the representation/approximation of signal found by Fourier transform close to the original signal in
+  1. Probably: the representation/approximation of signal found by Fourier transform is close to the original signal in
      least square sense. In other words, if you cared about minimizing the average of squared error between the approximated signal and original signal, coefficients found by Fourier transform gets the job done. Minimizing
      the squared error makes some empirical sense: since power is proportional to the square of amplitude for many signals
      of practical interests (voltage), least square implies the power of approximated signal will be close to original
@@ -64,6 +69,8 @@ I am not sure about the following, but probably that is how things are.
   3. How do we go from here to fast Fourier transform (which makes the computation in (16) of previous section efficient)?
   4. How do these things relate to other transforms like Laplace (which often shows up in control systems) and
      z-transform (which shows up in discrete dynamical systems)?
+  5. If Fourier's transform takes (complex) sinusoids as basis, what about wavelets? What kind of signals form
+     the basis in wavelet tranforms? Wavelets were going to change the world. What happened to that?
 
 
 ### References
