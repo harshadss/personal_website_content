@@ -2,7 +2,7 @@
 title: "Sane Choices for Small Machine Learning Teams: Part 1"
 date: 2018-08-13
 tags: ["machine learning", "deep learning", "python"]
-draft: true
+draft: false
 ---
 
 Data scientists and machine learning engineers in small and medium businesses often end up
