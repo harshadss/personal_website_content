@@ -2,7 +2,7 @@
 title: "When (not) to use deep learning"
 date: 2018-09-10
 tags: ["machine learning", "deep learning"]
-draft: true
+draft: false
 ---
 
 I've documented my disdain for using 'deep learning as a hammer looking for nails in every corner'
