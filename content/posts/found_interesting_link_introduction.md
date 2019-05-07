@@ -1,7 +1,7 @@
 ---
 title: "Found interesting link: Introduction"
 date: 2019-05-07T14:39:08+05:30
-draft: true
+draft: false
 tags: ["interesting-links", "physics", "maths"]
 ---
 

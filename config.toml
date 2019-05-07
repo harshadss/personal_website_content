@@ -1,55 +1,75 @@
 baseURL = "https://harshadss.github.io/"
 languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "Harshad Saykhedkar"
-theme = "minimal"
+theme = "hermit"
+
+# enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+
+# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
+
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "Copyright @ Harshad Saykhedkar"
+enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "yourdiscussshortname"
+
+[author]
+  name = "Harshad Saykhedkar"
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
 
 [params]
-    author = "Harshad Saykhedkar"
-    description = "Personal Website and Blog"
-    githubUsername = "harshadss"
-    accent = "green"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "clojure", "python"]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-[[menu.main]]
-    url = "/"
-    name = "Harshad Saykhedkar"
-    weight = 1
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#494f5c"
 
-[[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 2
+  homeSubtitle = "Personal Website of Harshad Saykhedkar"
+  footerCopyright = ' Copyright Harshad Saykhedkar'
+  # bgImg = ""  # Homepage background-image URL
 
-[[menu.main]]
-    url = "/talks/"
-    name = "Talks"
-    weight = 3
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
 
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
 
-[[menu.icon]]
-    url = "https://github.com/harshadss/"
-    name = "github"
-    weight = 2
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
 
-[[menu.icon]]
-    url = "https://twitter.com/harshad_geek/"
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
     name = "twitter"
-    weight = 3
+    url = "https://twitter.com/harshad_geek"
 
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/harshadss/"
-    name = "linkedin"
-    weight = 4
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/harshadss"
 
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/users/2372308/hssay"
-    name = "stack-overflow"
-    weight = 5
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about-harshad-saykhedkar/"
+    weight = 20
